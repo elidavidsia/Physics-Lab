@@ -6,9 +6,7 @@ Projectile motion is a key concept in physics, offering valuable insights into t
 
 This investigation not only provides a theoretical foundation but also extends to practical applications. By simulating projectile motion under various initial conditions, we can visualize the relationship between the angle of projection and the range. The task encourages a deeper understanding of how different parameters—such as velocity and gravity—affect motion, while also highlighting the limitations of idealized models. Incorporating more realistic factors, like air resistance, offers opportunities for further exploration in fields ranging from engineering to astrophysics.
 
-<br>
 <hr>
-<br>
 
 ### 1. Theoretical Foundation
 Projectile motion is governed by the following key equations, assuming no air resistance and that the only force acting on the projectile is gravity:
@@ -55,9 +53,7 @@ $$ R = v \cdot \cos(\theta) \cdot T $$
 
 $$ R = \frac{g}{v_0^2} \cdot \sin(2\theta) $$
 
-<br>
 <hr>
-<br>
 
 ## 2. Analysis of the Range
 
@@ -73,9 +69,7 @@ As the initial velocity increases, the range increases quadratically. This is re
 #### Gravitational acceleration $g$
 The range is inversely proportional to $g$, meaning that the higher the gravitational acceleration, the shorter the range. On Earth, $g \approx 9.8 \, \text{m/s}^2$ term in the range formula.
 
-<br>
 <hr>
-<br>
 
 ## 3. Practical Applications
 This idealized model can be adapted to more complex situations such as:
@@ -91,9 +85,7 @@ This idealized model can be adapted to more complex situations such as:
 - **Astrophysics**  
   The range equation can be adapted for space exploration to model the trajectory of spacecraft under gravitational forces.
 
-<br>
 <hr>
-<br>
 
 ## 4. Implementation
 ### <center>Python Simulation</center>
