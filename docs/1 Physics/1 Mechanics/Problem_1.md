@@ -1,6 +1,6 @@
 # Problem 1
 
-Investigating the Range as a Function of the Angle of Projection
+## Investigating the Range as a Function of the Angle of Projection
 
 Projectile motion is a key concept in physics, offering valuable insights into the fundamental laws of motion. By investigating how the range of a projectile changes with its angle of projection, we delve into both simple and complex relationships, characterized by linear and quadratic equations. These equations allow us to explore the influence of variables such as initial velocity, gravitational acceleration, and launch height. Understanding the dynamics of projectile motion opens up numerous real-world applications, from the arc of a soccer ball to the trajectory of a rocket.
 
