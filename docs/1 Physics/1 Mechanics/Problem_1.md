@@ -33,3 +33,8 @@ $v_0$ is the initial velocity.
 $θ$ is the angle of projection.
 <br>
 $g$ is the gravitational acceleration.
+
+<br>
+<br>
+
+The range $R$ is the horizontal distance traveled by the projectile when it returns to the ground (i.e., when $y(t) = 0$
