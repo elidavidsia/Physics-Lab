@@ -57,6 +57,7 @@ $$ T = \frac{g}{2v \sin(\theta)} $$
 Substitute this time into the horizontal motion equation to find the range:
 
 $$ R = v \cdot \cos(\theta) \cdot T $$
+
 $$ R = \frac{g}{v_0^2} \cdot \sin(2\theta) $$
 
 <br>
@@ -66,3 +67,10 @@ $$ R = \frac{g}{v_0^2} \cdot \sin(2\theta) $$
 ## 2. Analysis of the Range
 
 The range $R$ depends on several factors:
+
+Angle of projection $\theta$
+
+The range is maximized when $sin(2θ)=1$, which occurs at $\theta = 45^\circ$.
+
+The range decreases as the angle of projection moves away from $45^\circ$, either increasing or decreasing.
+
