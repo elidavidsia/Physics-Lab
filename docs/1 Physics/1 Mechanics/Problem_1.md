@@ -20,7 +20,7 @@ $$ y(t) = v_0 \cdot \sin(\theta) \cdot t - \frac{1}{2} g t^2 $$
 
 
 ##### Where:
-$ x(t) $ and $ y(t) $ are the horizontal and vertical positions of the projectile at time $ t $.
-$ v_0 $ is the initial velocity.
-$ θ $ is the angle of projection.
-$ g $ is the gravitational acceleration.
+$x(t)$ and $y(t)$ are the horizontal and vertical positions of the projectile at time $t$.
+$v_0$ is the initial velocity.
+$θ$ is the angle of projection.
+$g$ is the gravitational acceleration.
