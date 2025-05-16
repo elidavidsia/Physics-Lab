@@ -23,7 +23,6 @@ $$ x(t) = v_0 \cdot \cos(\theta) \cdot t $$
 #### <center>In the vertical direction:</center>
 $$ y(t) = v_0 \cdot \sin(\theta) \cdot t - \frac{1}{2} g t^2 $$
 
-<br>
 
 ##### Where:
 $x(t)$ and $y(t)$ are the horizontal and vertical positions of the projectile at time $t$.
@@ -34,11 +33,9 @@ $θ$ is the angle of projection.
 <br>
 $g$ is the gravitational acceleration.
 
-<br>
 
 The range $R$ is the horizontal distance traveled by the projectile when it returns to the ground (i.e., when $y(t) = 0$
 
-<br>
 
 To find the time $T$ when the projectile hits the ground, set $y(T)=0$:
 
@@ -46,13 +43,11 @@ $$
 0 = v \cdot \sin(\theta) \cdot T - \frac{1}{2} g T^2
 $$
 
-<br>
 
 Solving for $T$:
 
 $$ T = \frac{g}{2v \sin(\theta)} $$
 
-<br>
         
 Substitute this time into the horizontal motion equation to find the range:
 
@@ -105,3 +100,14 @@ This idealized model can be adapted to more complex situations such as:
 <p align="center">
   <img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/main/docs/1%20Physics/1%20Mechanics/Problem1.jpg">
 </p>
+
+<br>
+<hr>
+<br>
+
+## 5.Conclusion
+In conclusion, the investigation of projectile motion as a function of the angle of projection provides valuable insights into the interplay of physical variables such as initial velocity, gravitational acceleration, and launch height. By deriving and analyzing the governing equations, we understand how the angle of projection significantly influences the range, with a 45° angle typically maximizing the distance traveled by the projectile. 
+
+The practical applications of this model extend beyond theoretical physics into real-world scenarios like sports, engineering, and even space exploration, where understanding projectile trajectories is crucial. While the idealized model serves as a strong foundation, it is important to acknowledge its limitations, particularly in the presence of air resistance or varying terrain. By incorporating numerical simulations and exploring more complex models, we can better account for these factors, providing a more accurate representation of real-world projectile motion. Ultimately, this task deepens our understanding of projectile motion and showcases its broad applicability across various fields.
+
+<br>
