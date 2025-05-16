@@ -54,14 +54,11 @@ $$ R = \frac{g}{v_0^2} \cdot \sin(2\theta) $$
 ## 2. Analysis of the Range
 
 The range $R$ depends on several factors:
-
 - **Angle of projection $\theta$**  
   The range is maximized when $sin(2θ)=1$, which occurs at $\theta = 45^\circ$.  
   The range decreases as the angle of projection moves away from $45^\circ$, either increasing or decreasing.
-  
 - **Initial velocity $v_0$**  
   As the initial velocity increases, the range increases quadratically. This is reflected in the $v_0^2$ term in the range formula.
-  
 - **Gravitational acceleration $g$**  
   The range is inversely proportional to $g$, meaning that the higher the gravitational acceleration, the shorter the range. On Earth, $g \approx 9.8 \, \text{m/s}^2$ term in the range formula.
 
@@ -74,10 +71,10 @@ This idealized model can be adapted to more complex situations such as:
 
 - **Uneven Terrain**  
   If the projectile lands at a height different from its launch height, we would need to modify the equations to account for the initial and final vertical positions.
-  
+
 - **Air Resistance**  
   Air resistance causes the projectile to decelerate in both horizontal and vertical directions. This requires solving a set of differential equations considering drag force.
-  
+
 - **Sports**  
   Understanding the trajectory of a soccer ball, basketball, or baseball allows athletes to optimize their throws or kicks.
   
