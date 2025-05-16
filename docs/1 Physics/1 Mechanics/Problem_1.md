@@ -102,4 +102,6 @@ This idealized model can be adapted to more complex situations such as:
 
 ## 4. Implementation
 ### <center>Python Simulation</center>
-![Angle of Projection](docs/1 Physics/1 Mechanics/Problem 1.png)
+<p align="center">
+  <img src="1%20Physics/1%20Mechanics/Problem%201.png" alt="Problem 1" width="500">
+</p>
