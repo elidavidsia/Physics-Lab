@@ -8,3 +8,5 @@ This investigation not only provides a theoretical foundation but also extends t
 
 1. Theoretical Foundation
 Projectile motion is governed by the following key equations, assuming no air resistance and that the only force acting on the projectile is gravity:
+
+Equations of Motion:
