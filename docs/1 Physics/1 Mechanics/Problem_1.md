@@ -103,5 +103,5 @@ This idealized model can be adapted to more complex situations such as:
 ## 4. Implementation
 ### <center>Python Simulation</center>
 <p align="center">
-  <img src="1%20Physics/1%20Mechanics/Problem1.jpg" alt="Problem 1" width="500">
+  <img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/main/docs/1%20Physics/1%20Mechanics/Problem1.jpg">
 </p>
