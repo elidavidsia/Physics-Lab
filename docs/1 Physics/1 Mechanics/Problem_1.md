@@ -12,13 +12,13 @@ This investigation not only provides a theoretical foundation but also extends t
 Projectile motion is governed by the following key equations, assuming no air resistance and that the only force acting on the projectile is gravity:
 <br>
 ### Equations of Motion:
-<p>
+
 #### <center>In the horizontal direction:</center>
 $$ x(t) = v_0 \cdot \cos(\theta) \cdot t $$
 
 #### <center>In the vertical direction:</center>
 $$ y(t) = v_0 \cdot \sin(\theta) \cdot t - \frac{1}{2} g t^2 $$
-</p>
+
 <br>
 ##### Where:
 <p>$x(t)$ and $y(t)$ are the horizontal and vertical positions of the projectile at time $t$.
