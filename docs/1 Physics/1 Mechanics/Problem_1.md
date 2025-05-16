@@ -6,7 +6,9 @@ Projectile motion is a key concept in physics, offering valuable insights into t
 
 This investigation not only provides a theoretical foundation but also extends to practical applications. By simulating projectile motion under various initial conditions, we can visualize the relationship between the angle of projection and the range. The task encourages a deeper understanding of how different parameters—such as velocity and gravity—affect motion, while also highlighting the limitations of idealized models. Incorporating more realistic factors, like air resistance, offers opportunities for further exploration in fields ranging from engineering to astrophysics.
 
-1. Theoretical Foundation
+### 1. Theoretical Foundation
 Projectile motion is governed by the following key equations, assuming no air resistance and that the only force acting on the projectile is gravity:
 
-Equations of Motion:
+### Equations of Motion:
+In the horizontal direction:
+$$ x(t) = v_0 \cdot \cos(\theta) \cdot t $$
