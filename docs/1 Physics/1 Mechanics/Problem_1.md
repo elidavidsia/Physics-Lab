@@ -45,3 +45,16 @@ To find the time $T$ when the projectile hits the ground, set $y(T)=0$:
 $$
 0 = v \cdot \sin(\theta) \cdot T - \frac{1}{2} g T^2
 $$
+
+<br>
+
+Solving for $T$:
+
+$$ T = \frac{g}{2v \sin(\theta)} $$
+
+<br>
+        
+Substitute this time into the horizontal motion equation to find the range:
+
+$$ R = v \cdot \cos(\theta) \cdot T $$
+$$ R = \frac{g}{v_0^2} \cdot \sin(2\theta) $$
