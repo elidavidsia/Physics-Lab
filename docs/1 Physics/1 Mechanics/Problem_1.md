@@ -14,12 +14,12 @@ This investigation not only provides a theoretical foundation but also extends t
 Projectile motion is governed by the following key equations, assuming no air resistance and that the only force acting on the projectile is gravity:
   
   
-### Equations of Motion:
+#### Equations of Motion:
 
-#### <center>In the horizontal direction:</center>
+##### <center>In the horizontal direction:</center>
 $$ x(t) = v_0 \cdot \cos(\theta) \cdot t $$
 
-#### <center>In the vertical direction:</center>
+##### <center>In the vertical direction:</center>
 $$ y(t) = v_0 \cdot \sin(\theta) \cdot t - \frac{1}{2} g t^2 $$
   
 ##### Where:
@@ -89,7 +89,7 @@ This idealized model can be adapted to more complex situations such as:
 <br>
 
 ## 4. Implementation
-### <center>Python Simulation</center>
+#### <center>Python Simulation</center>
 <p align="center">
   <img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/main/docs/1%20Physics/1%20Mechanics/Problem1.jpg">
 </p>
