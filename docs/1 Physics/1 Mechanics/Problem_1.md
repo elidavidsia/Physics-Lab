@@ -90,21 +90,18 @@ The range is inversely proportional to $g$, meaning that the higher the gravitat
 
 ## 3. Practical Applications
 This idealized model can be adapted to more complex situations such as:
+- **Uneven Terrain**  
+  If the projectile lands at a height different from its launch height, we would need to modify the equations to account for the initial and final vertical positions.
+  
+- **Air Resistance**  
+  Air resistance causes the projectile to decelerate in both horizontal and vertical directions. This requires solving a set of differential equations considering drag force.
+  
+- **Sports**  
+  Understanding the trajectory of a soccer ball, basketball, or baseball allows athletes to optimize their throws or kicks.
+  
+- **Astrophysics**  
+  The range equation can be adapted for space exploration to model the trajectory of spacecraft under gravitational forces.
 
-<br>
-
-#### Uneven Terrain
-If the projectile lands at a height different from its launch height, we would need to modify the equations to account for the initial and final vertical positions.
-
-<br>
-
-#### Air Resistance
-Air resistance causes the projectile to decelerate in both horizontal and vertical directions. This requires solving a set of differential equations considering drag force.
-
-<br>
-
-#### Sports
-Understanding the trajectory of a soccer ball, basketball, or baseball allows athletes to optimize their throws or kicks.
 
 <br>
 
