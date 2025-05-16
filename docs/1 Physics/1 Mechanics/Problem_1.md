@@ -42,6 +42,7 @@ The range $R$ is the horizontal distance traveled by the projectile when it retu
 
 To find the time $T$ when the projectile hits the ground, set $y(T)=0$:
 <br>
+
 $$
 0 = v \cdot \sin(\theta) \cdot T - \frac{1}{2} g T^2
 $$
