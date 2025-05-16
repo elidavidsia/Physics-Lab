@@ -58,3 +58,11 @@ Substitute this time into the horizontal motion equation to find the range:
 
 $$ R = v \cdot \cos(\theta) \cdot T $$
 $$ R = \frac{g}{v_0^2} \cdot \sin(2\theta) $$
+
+<br>
+<hr>
+<br>
+
+## 2. Analysis of the Range
+
+The range $R$ depends on several factors:
