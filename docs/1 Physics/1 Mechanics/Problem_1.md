@@ -58,10 +58,10 @@ The range $R$ depends on several factors:
 - **Angle of projection $\theta$**  
   The range is maximized when $sin(2θ)=1$, which occurs at $\theta = 45^\circ$.  
   The range decreases as the angle of projection moves away from $45^\circ$, either increasing or decreasing.
-
+  
 - **Initial velocity $v_0$**  
   As the initial velocity increases, the range increases quadratically. This is reflected in the $v_0^2$ term in the range formula.
-
+  
 - **Gravitational acceleration $g$**  
   The range is inversely proportional to $g$, meaning that the higher the gravitational acceleration, the shorter the range. On Earth, $g \approx 9.8 \, \text{m/s}^2$ term in the range formula.
 
@@ -97,7 +97,7 @@ This idealized model can be adapted to more complex situations such as:
 <hr>
 <br>
 
-## 5.Conclusion
+## 5. Conclusion
 In conclusion, the investigation of projectile motion as a function of the angle of projection provides valuable insights into the interplay of physical variables such as initial velocity, gravitational acceleration, and launch height. By deriving and analyzing the governing equations, we understand how the angle of projection significantly influences the range, with a 45° angle typically maximizing the distance traveled by the projectile. 
 
 The practical applications of this model extend beyond theoretical physics into real-world scenarios like sports, engineering, and even space exploration, where understanding projectile trajectories is crucial. While the idealized model serves as a strong foundation, it is important to acknowledge its limitations, particularly in the presence of air resistance or varying terrain. By incorporating numerical simulations and exploring more complex models, we can better account for these factors, providing a more accurate representation of real-world projectile motion. Ultimately, this task deepens our understanding of projectile motion and showcases its broad applicability across various fields.
