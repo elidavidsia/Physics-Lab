@@ -87,6 +87,7 @@ This idealized model can be adapted to more complex situations such as:
 <br>
 <hr>
 <br>
+
 ## 4. Implementation
 ### <center>Python Simulation</center>
 <p align="center">
