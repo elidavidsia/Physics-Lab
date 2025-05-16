@@ -33,15 +33,19 @@ $g$ is the gravitational acceleration.
   
 The range $R$ is the horizontal distance traveled by the projectile when it returns to the ground (i.e., when $y(t) = 0$
   
-<center>To find the time $T$ when the projectile hits the ground, set $y(T)=0$:</center>
+<center> To find the time $T$ when the projectile hits the ground, set $y(T)=0$: </center>
   
-$$ 0 = v \cdot \sin(\theta) \cdot T - \frac{1}{2} g T^2 $$  
+$$ 0 = v \cdot \sin(\theta) \cdot T - \frac{1}{2} g T^2 $$
 
-<center>Solving for $T$:  </center>
+<br>
+
+<center> Solving for $T$: </center>
   
-$$ T = \frac{g}{2v \sin(\theta)} $$  
+$$ T = \frac{g}{2v \sin(\theta)} $$
+
+<br>
   
-<center>Substitute this time into the horizontal motion equation to find the range:</center>
+<center> Substitute this time into the horizontal motion equation to find the range: </center>
 
 $$ R = v \cdot \cos(\theta) \cdot T $$  
 
