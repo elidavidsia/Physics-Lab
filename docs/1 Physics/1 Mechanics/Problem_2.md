@@ -97,7 +97,7 @@ The forced damped pendulum model can be applied to a variety of real-world syste
 <hr>  
 <br>  
 
-### 4. Implementation
+## 4. Implementation
 
 In this section, we simulate the dynamics of the forced damped pendulum using numerical methods. Specifically, the Runge-Kutta method is employed to solve the differential equation governing the system's motion. The Python implementation calculates the angular displacement over time, allowing for the visualization of both the time evolution of the angle \$\theta(t)\$ and the phase portrait of the system. <br>
 
@@ -115,7 +115,7 @@ By solving this equation for various parameters, we gain insights into the pendu
 <hr>
 <br>
 
-## Conclusion
+## 5. Conclusion
 
 The forced damped pendulum is a rich and complex system that illustrates the dynamics of oscillatory motion influenced by damping and external periodic forces. By deriving the theoretical equations of motion and exploring resonance conditions, we can gain valuable insights into the system's behavior under various conditions. The transition between regular oscillations and chaotic motion highlights the intricate interplay between damping, driving amplitude, and frequency, providing a fascinating lens through which to understand complex dynamic systems. 
 
