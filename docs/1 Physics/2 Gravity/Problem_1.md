@@ -2,7 +2,7 @@
 
 ## Orbital Period and Orbital Radius
 
-The relationship between the square of the orbital period and the cube of the orbital radius, known as Kepler's Third Law, is one of the most fundamental principles in celestial mechanics. This law forms the foundation for understanding planetary motion, gravitational forces, and the interactions between celestial bodies in orbit. It states that the orbital period $T$ of a planet or satellite is directly related to the cube of its average orbital radius $r$, such that:
+The relationship between the square of the orbital period and the cube of the orbital radius, known as Kepler's Third Law, is one of the most fundamental principles in celestial mechanics. This law forms the foundation for understanding planetary motion, gravitational forces, and the interactions between celestial bodies in orbit. It states that the orbital period $ T $ of a planet or satellite is directly related to the cube of its average orbital radius $ r $, such that:
 
 $$
 T^2 \propto r^3
