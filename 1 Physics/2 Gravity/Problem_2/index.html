@@ -58,6 +58,34 @@
 </li>
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 2</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#escape-velocities-and-cosmic-velocities">Escape Velocities and Cosmic Velocities</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#types-of-cosmic-velocities">Types of Cosmic Velocities</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#1-definitions-and-physical-meaning">1. Definitions and Physical Meaning</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#escape-velocity">Escape Velocity</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#first-cosmic-velocity">First Cosmic Velocity</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#second-cosmic-velocity">Second Cosmic Velocity</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#third-cosmic-velocity">Third Cosmic Velocity</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-mathematical-derivations">2. Mathematical Derivations</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#3-analysis-and-calculation">3. Analysis and Calculation</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#parameters">Parameters</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#visualization-and-calculation">Visualization and Calculation</a>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_3/">Problem 3</a>
@@ -172,19 +200,101 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-2">Problem 2</h1>
+<h2 id="escape-velocities-and-cosmic-velocities">Escape Velocities and Cosmic Velocities</h2>
+<p>The study of velocities in celestial mechanics is fundamental to understanding how spacecraft can break free from a planet’s gravitational pull, enter orbit, or leave the solar system. These velocities are typically categorized as escape velocities and cosmic velocities. The escape velocity is the speed needed to break free from a planet’s gravitational field, while cosmic velocities define the different thresholds for orbital and interstellar escape.</p>
+<h4 id="types-of-cosmic-velocities">Types of Cosmic Velocities</h4>
+<ul>
+<li>First Cosmic Velocity (Orbital velocity)</li>
+<li>Second Cosmic Velocity (Escape velocity)</li>
+<li>Third Cosmic Velocity (Escape velocity from the Solar System)</li>
+</ul>
+<p><br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="1-definitions-and-physical-meaning">1. Definitions and Physical Meaning</h2>
+<h3 id="escape-velocity">Escape Velocity</h3>
+<p>The escape velocity is the minimum speed an object needs to escape the gravitational pull of a celestial body, such as Earth, without further propulsion. This velocity depends on the mass and radius of the body from which the object is escaping. The formula for escape velocity is:</p>
+<div class="arithmatex">\[
+v_e = \sqrt{\frac{2GM}{R}}
+\]</div>
+<p>Where:</p>
+<ul>
+<li><strong>G</strong> = gravitational constant <span class="arithmatex">\(6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2}\)</span></li>
+<li><strong>M</strong> = mass of the celestial body (kg)</li>
+<li><strong>R</strong> = radius of the celestial body (m)</li>
+</ul>
+<h3 id="first-cosmic-velocity">First Cosmic Velocity</h3>
+<p>The first cosmic velocity is the speed an object must have to remain in a stable circular orbit around a celestial body. This is the orbital velocity:</p>
+<div class="arithmatex">\[
+v_1 = \sqrt{\frac{GM}{R}}
+\]</div>
+<h3 id="second-cosmic-velocity">Second Cosmic Velocity</h3>
+<p>The second cosmic velocity, or escape velocity, is the speed needed to escape the gravitational pull of a celestial body entirely, without falling back to it. As mentioned above, this is given by the same formula:</p>
+<div class="arithmatex">\[
+v_2 = \sqrt{\frac{2GM}{R}}
+\]</div>
+<h3 id="third-cosmic-velocity">Third Cosmic Velocity</h3>
+<p>The third cosmic velocity is the escape velocity required to escape the Sun’s gravitational influence and leave the Solar System entirely:</p>
+<div class="arithmatex">\[
+v_3 = \sqrt{\frac{2GM_{\text{sun}}}{R_{\text{sun}}} + \frac{2GM_{\text{planet}}}{R_{\text{planet}}}}
+\]</div>
+<p><br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="2-mathematical-derivations">2. Mathematical Derivations</h2>
+<p>We start by considering the energy required to escape a celestial body. The total mechanical energy <span class="arithmatex">\(E\)</span> of an object in a gravitational field is the sum of its kinetic energy <span class="arithmatex">\(K\)</span> and gravitational potential energy <span class="arithmatex">\(U\)</span>.</p>
+<p><strong>Gravitational Potential Energy:</strong></p>
+<div class="arithmatex">\[
+E = K + U = \frac{1}{2} mv^2 - \frac{GMm}{R}
+\]</div>
+<p>For escape, we need the total energy to be zero (the object should just reach infinity with zero speed). Therefore:</p>
+<div class="arithmatex">\[
+\frac{1}{2} mv^2 = \frac{GMm}{R}
+\]</div>
+<p>Solving for escape velocity:</p>
+<div class="arithmatex">\[
+v_e = \sqrt{\frac{2GM}{R}}
+\]</div>
+<p><br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="3-analysis-and-calculation">3. Analysis and Calculation</h2>
+<p>Now, let's calculate and visualize the first, second, and third cosmic velocities for Earth, Mars, and Jupiter.</p>
+<h3 id="parameters">Parameters</h3>
+<p><strong>Earth:</strong><br>
+Mass of Earth (<span class="arithmatex">\(M_{\text{Earth}}\)</span>) = <span class="arithmatex">\(5.972 \times 10^{24}\)</span> kg<br>
+Radius of Earth (<span class="arithmatex">\(R_{\text{Earth}}\)</span>) = <span class="arithmatex">\(6.371 \times 10^6\)</span> m</br></br></p>
+<p><br/></p>
+<p><strong>Mars:</strong><br>
+Mass of Mars (<span class="arithmatex">\(M_{\text{Mars}}\)</span>) = <span class="arithmatex">\(6.417 \times 10^{23}\)</span> kg<br>
+Radius of Mars (<span class="arithmatex">\(R_{\text{Mars}}\)</span>) = <span class="arithmatex">\(3.396 \times 10^6\)</span> m</br></br></p>
+<p><br/></p>
+<p><strong>Jupiter:</strong><br>
+Mass of Jupiter (<span class="arithmatex">\(M_{\text{Jupiter}}\)</span>) = <span class="arithmatex">\(1.898 \times 10^{27}\)</span> kg<br>
+Radius of Jupiter (<span class="arithmatex">\(R_{\text{Jupiter}}\)</span>) = <span class="arithmatex">\(6.991 \times 10^7\)</span> m</br></br></p>
+<p><br/></p>
+<p><strong>Sun:</strong><br>
+Mass of Sun (<span class="arithmatex">\(M_{\text{Sun}}\)</span>) = <span class="arithmatex">\(1.989 \times 10^{30}\)</span> kg</br></p>
+<p><br/></p>
+<p><strong>Distance from Earth to Sun:</strong><br>
+<span class="arithmatex">\(R_{\text{Earth-Sun}}\)</span> = <span class="arithmatex">\(1.496 \times 10^{11}\)</span> m</br></p>
+<p><br/><br/></p>
+<h3 id="visualization-and-calculation">Visualization and Calculation</h3>
+<p>Using the given parameters, we can now calculate the escape velocities, orbital velocities, and third cosmic velocities for Earth, Mars, and Jupiter. The calculations depend on the mass and radius of each celestial body, and for the third cosmic velocity, the gravitational influences of both the planet and the Sun are considered.</p>
+<p><br/></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
 <a class="btn btn-neutral float-left" href="../Problem_1/" title="Problem 1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 <a class="btn btn-neutral float-right" href="../Problem_3/" title="Problem 3">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
-<hr/>
+<hr>
 <div role="contentinfo">
 <!-- Copyright etc -->
 </div>
 
   Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
+</hr></footer>
 </div>
 </div>
 </section>
