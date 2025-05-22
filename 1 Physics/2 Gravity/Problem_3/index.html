@@ -60,6 +60,36 @@
 </li>
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 3</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#trajectories-of-a-freely-released-payload-near-earth">Trajectories of a Freely Released Payload Near Earth</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#1-theoretical-background">1. Theoretical Background</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#gravitational-force">Gravitational Force</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#keplers-laws">Kepler’s Laws</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#types-of-orbits">Types of Orbits</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-task-breakdown">2. Task Breakdown</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#initial-conditions">Initial Conditions</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#computational-modeling">Computational Modeling</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#simulating-the-trajectory">Simulating the Trajectory</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#plotting-the-trajectories">Plotting the Trajectories</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#escape-velocity">Escape Velocity</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#3-python-simulation">3. Python Simulation</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#4-conclusion-and-applications">4. Conclusion and Applications</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -172,19 +202,116 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-3">Problem 3</h1>
+<h2 id="trajectories-of-a-freely-released-payload-near-earth">Trajectories of a Freely Released Payload Near Earth</h2>
+<p>When an object is released from a moving rocket near Earth, the trajectory it follows is strongly influenced by its initial conditions (position, velocity, and altitude) and gravitational forces. This problem intersects orbital mechanics, gravitational physics, and numerical simulation techniques. By understanding the possible trajectories (such as parabolic, hyperbolic, and elliptical), we can model and predict the behavior of payloads in space. This knowledge is particularly important in missions involving satellite deployment, reentry, and escape trajectories.</p>
+<p><br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="1-theoretical-background">1. Theoretical Background</h2>
+<h3 id="gravitational-force">Gravitational Force</h3>
+<p>Newton's law of universal gravitation states that any two masses attract each other with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centers of mass:</p>
+<p><br/></p>
+<div class="arithmatex">\[
+F = G \frac{m_1 m_2}{r^2}
+\]</div>
+<p>Where:</p>
+<ul>
+<li><strong>F</strong> = gravitational force  </li>
+<li><strong>G</strong> = <span class="arithmatex">\(6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2}\)</span> </li>
+<li><strong><span class="arithmatex">\(m_1\)</span>, <span class="arithmatex">\(m_2\)</span></strong> = masses of two objects  </li>
+<li><strong>r</strong> = distance between their centers  </li>
+</ul>
+<h3 id="keplers-laws">Kepler’s Laws</h3>
+<ul>
+<li><strong>First Law:</strong> The orbit of a planet (or object) around the Sun (or Earth) is an ellipse with the Sun (or Earth) at one of the foci.</li>
+<li><strong>Second Law:</strong> A line connecting a planet to the Sun sweeps out equal areas in equal times, meaning that the object moves faster when closer to the central body.</li>
+<li><strong>Third Law:</strong> <span class="arithmatex">\(T^2 \propto a^3\)</span>, where <span class="arithmatex">\(T\)</span> is period, <span class="arithmatex">\(a\)</span> is semi-major axis.</li>
+</ul>
+<h3 id="types-of-orbits">Types of Orbits</h3>
+<ul>
+<li><strong>Elliptical Orbit:</strong> This occurs when the object’s velocity is such that the gravitational pull of Earth results in the object moving in an elliptical path around Earth.</li>
+<li><strong>Parabolic Trajectory:</strong> This is a special case of elliptical orbits where the eccentricity of the orbit is exactly 1. This type of trajectory occurs when an object has just enough energy to escape Earth's gravitational pull.</li>
+<li><strong>Hyperbolic Trajectory:</strong> This occurs when the object’s velocity is higher than the escape velocity, meaning it will escape Earth’s gravitational influence entirely.</li>
+</ul>
+<p><br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="2-task-breakdown">2. Task Breakdown</h2>
+<h4 id="initial-conditions">Initial Conditions</h4>
+<p>Specify position and velocity vector of the payload at release.</p>
+<h4 id="computational-modeling">Computational Modeling</h4>
+<p>Use Newton's laws and numerical methods like Runge-Kutta or Euler’s method to simulate the motion.</p>
+<p><br/></p>
+<h4 id="simulating-the-trajectory">Simulating the Trajectory</h4>
+<ul>
+<li>Gravitational acceleration at every point in the trajectory  </li>
+<li>Initial release velocity affects path type  </li>
+<li>Varying distance from Earth affects gravitational force  </li>
+</ul>
+<p><br/></p>
+<h4 id="plotting-the-trajectories">Plotting the Trajectories</h4>
+<ul>
+<li>Altitude vs. Time  </li>
+<li>Velocity vs. Time  </li>
+<li>Cartesian Trajectory (x vs. y)  </li>
+</ul>
+<p><br/></p>
+<h4 id="escape-velocity">Escape Velocity</h4>
+<p>The escape velocity at a distance <span class="arithmatex">\(r\)</span> from Earth's center is:</p>
+<div class="arithmatex">\[
+v_{\text{escape}} = \sqrt{\frac{2GM}{r}}
+\]</div>
+<p>Where:</p>
+<ul>
+<li><strong>G</strong> = gravitational constant  </li>
+<li><strong>M</strong> = mass of Earth (<span class="arithmatex">\(5.972 \times 10^{24}\)</span> kg)  </li>
+<li><strong>r</strong> = distance from Earth’s center  </li>
+</ul>
+<p><br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="3-python-simulation">3. Python Simulation</h2>
+<div style="text-align: center;">
+<a href="https://pythonsimulation-5u2hdv5p42ucx3wp2sbzua.streamlit.app/" target="_blank">
+<button style="
+      background-color: #007bff; 
+      color: white; 
+      padding: 12px 28px; 
+      font-size: 16px; 
+      border: none; 
+      border-radius: 6px; 
+      cursor: pointer;
+      text-decoration: none;
+    ">
+      🚀 Launch Simulation
+    </button>
+</a>
+</div>
+<p><br/>
+<br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="4-conclusion-and-applications">4. Conclusion and Applications</h2>
+<ul>
+<li><strong>Orbital Insertion:</strong> Proper velocity enables stable orbit.</li>
+<li><strong>Escape Trajectory:</strong> High enough velocity leads to escape.</li>
+<li><strong>Reentry:</strong> Insufficient speed results in falling back to Earth.</li>
+</ul>
+<p>Understanding these scenarios allows mission planners to safely and accurately deliver payloads into space, return them, or launch them on interplanetary or interstellar journeys.</p>
+<p><br/></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
 <a class="btn btn-neutral float-left" href="../Problem_2/" title="Problem 2"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 <a class="btn btn-neutral float-right" href="../../3%20Waves/Problem_1/" title="Problem 1">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
-<hr/>
+<hr>
 <div role="contentinfo">
 <!-- Copyright etc -->
 </div>
 
   Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
+</hr></footer>
 </div>
 </div>
 </section>
