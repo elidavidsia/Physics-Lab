@@ -2,7 +2,7 @@
 
 ## Orbital Period and Orbital Radius
 
-The relationship between the square of the orbital period and the cube of the orbital radius, known as Kepler's Third Law, is one of the most fundamental principles in celestial mechanics. This law forms the foundation for understanding planetary motion, gravitational forces, and the interactions between celestial bodies in orbit. It states that the orbital period \$T\$ of a planet or satellite is directly related to the cube of its average orbital radius \$r\$, such that:
+The relationship between the square of the orbital period and the cube of the orbital radius, known as Kepler's Third Law, is one of the most fundamental principles in celestial mechanics. This law forms the foundation for understanding planetary motion, gravitational forces, and the interactions between celestial bodies in orbit. It states that the orbital period $T$ of a planet or satellite is directly related to the cube of its average orbital radius $r$, such that:
 
 $$
 T^2 \propto r^3
@@ -35,9 +35,9 @@ $$
 
 <br>
 
-Equating these two forces gives us a relation between the orbital velocity \$v\$, gravitational constant \$G\$, the mass of the central object \$M\$, and the orbital radius \$r\$.
+Equating these two forces gives us a relation between the orbital velocity $v$, gravitational constant $G$, the mass of the central object $M$, and the orbital radius $r$.
 
-Using the fact that the orbital velocity is related to the orbital period by \$v = \frac{2\pi r}{T}\$, we can derive the equation that connects the orbital period and the orbital radius.
+Using the fact that the orbital velocity is related to the orbital period by $v = \frac{2\pi r}{T}$, we can derive the equation that connects the orbital period and the orbital radius.
 
 <br>
 <hr>
@@ -71,7 +71,7 @@ Simulation from [PhET Interactive Simulations](https://phet.colorado.edu), Unive
 
 ## 4. Extension to Elliptical Orbits
 
-While the above holds for circular orbits, Kepler’s Third Law still applies to elliptical ones using the semi-major axis \$a\$ in place of the radius \$r\$:
+While the above holds for circular orbits, Kepler’s Third Law still applies to elliptical ones using the semi-major axis $a$ in place of the radius $r$:
 
 **Kepler’s Third Law for Elliptical Orbits:**
 
