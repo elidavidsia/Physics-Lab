@@ -14,8 +14,6 @@ When an object is released from a moving rocket near Earth, the trajectory it fo
 
 Newton's law of universal gravitation states that any two masses attract each other with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centers of mass:
 
-<br>
-
 $$
 F = G \frac{m_1 m_2}{r^2}
 $$
@@ -53,23 +51,17 @@ Specify position and velocity vector of the payload at release.
 
 Use Newton's laws and numerical methods like Runge-Kutta or Euler’s method to simulate the motion.
 
-<br>
-
 #### Simulating the Trajectory
 
 - Gravitational acceleration at every point in the trajectory  
 - Initial release velocity affects path type  
 - Varying distance from Earth affects gravitational force  
 
-<br>
-
 #### Plotting the Trajectories
 
 - Altitude vs. Time  
 - Velocity vs. Time  
 - Cartesian Trajectory (x vs. y)  
-
-<br>
 
 #### Escape Velocity
 
