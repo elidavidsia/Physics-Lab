@@ -119,7 +119,42 @@ $R_{\text{Earth-Sun}}$ = $1.496 \times 10^{11}$ m
 
 Using the given parameters, we can now calculate the escape velocities, orbital velocities, and third cosmic velocities for Earth, Mars, and Jupiter. The calculations depend on the mass and radius of each celestial body, and for the third cosmic velocity, the gravitational influences of both the planet and the Sun are considered.
 
+<img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/2%20Gravity/Problem%202a.png">
+
 <br>
 
-<img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/2%20Gravity/Problem%202a.png">
 <img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/2%20Gravity/Problem%202b.png">
+
+<br>
+
+By calculating these values, we can understand the differences in velocities required for escape, orbit, and interstellar travel from different celestial bodies.
+
+<br>
+<hr>
+<br>
+
+## 4. Importance In Space Exploration
+
+Understanding these velocities is crucial for space missions:
+
+- **Launching Satellites:** To place satellites into orbit around Earth or another body, the first cosmic velocity is used to determine the speed at which to launch.
+- **Interplanetary Missions:** The second cosmic velocity is necessary for spacecraft to leave the planet’s gravity and travel to other planets, such as Mars or Jupiter.
+- **Interstellar Travel:** The third cosmic velocity would be required for any spacecraft attempting to travel outside the Solar System.
+
+<br>
+<hr>
+<br>
+
+## 5. Conclusion
+
+The study of escape and cosmic velocities provides critical insight into the dynamics of space travel and celestial mechanics. These velocities define the thresholds necessary for an object to break free from a planet’s gravitational influence, achieve stable orbits, or venture beyond the Solar System.
+
+- **Escape velocity** is fundamental for launching spacecraft or objects into space, ensuring they overcome a planet's gravitational pull.
+- **First cosmic velocity** is essential for maintaining orbits around celestial bodies, such as Earth, and is used in satellite deployment and orbital missions.
+- **Second cosmic velocity** allows spacecraft to leave the gravitational pull of a planet entirely, enabling interplanetary missions like those to Mars or Jupiter.
+- **Third cosmic velocity** provides the required speed for interstellar travel, which is essential for missions aiming to explore regions beyond our Solar System.
+
+The calculations and visualizations for Earth, Mars, and Jupiter illustrate how these velocities vary with the mass and size of celestial bodies, demonstrating the challenges involved in space exploration. Understanding these velocities is crucial for both current and future space missions, as they directly impact mission design, energy requirements, and the success of interplanetary and interstellar exploration.
+
+<br>
+
