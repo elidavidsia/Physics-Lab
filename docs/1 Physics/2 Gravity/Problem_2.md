@@ -95,32 +95,31 @@ Now, let's calculate and visualize the first, second, and third cosmic velocitie
 Mass of Earth ($M_{\text{Earth}}$) = $5.972 \times 10^{24}$ kg  
 Radius of Earth ($R_{\text{Earth}}$) = $6.371 \times 10^6$ m
 
-<br>
 
 **Mars:**  
 Mass of Mars ($M_{\text{Mars}}$) = $6.417 \times 10^{23}$ kg  
 Radius of Mars ($R_{\text{Mars}}$) = $3.396 \times 10^6$ m
 
-<br>
 
 **Jupiter:**  
 Mass of Jupiter ($M_{\text{Jupiter}}$) = $1.898 \times 10^{27}$ kg  
 Radius of Jupiter ($R_{\text{Jupiter}}$) = $6.991 \times 10^7$ m
 
-<br>
 
 **Sun:**  
 Mass of Sun ($M_{\text{Sun}}$) = $1.989 \times 10^{30}$ kg
 
-<br>
 
 **Distance from Earth to Sun:**  
 $R_{\text{Earth-Sun}}$ = $1.496 \times 10^{11}$ m
 
-<br><br>
+<br>
 
 ### Visualization and Calculation
 
 Using the given parameters, we can now calculate the escape velocities, orbital velocities, and third cosmic velocities for Earth, Mars, and Jupiter. The calculations depend on the mass and radius of each celestial body, and for the third cosmic velocity, the gravitational influences of both the planet and the Sun are considered.
 
 <br>
+
+<img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/2%20Gravity/Problem%202a.png">
+<img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/2%20Gravity/Problem%202b.png">
