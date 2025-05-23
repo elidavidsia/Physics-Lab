@@ -49,7 +49,24 @@ Phase $\phi$: This is the initial “starting angle” of the wave. Adjusting th
 <br><hr><br>
 
 ## 2. Python Simulation
-<br> <a href="https://pythonsimulation-xaase6arhfiz4bqu3hcjou.streamlit.app/" target="_blank"> <button style=" background-color: #007bff; color: white; padding: 15px 30px; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease; "> Launch Simulation </button> </a>
+
+<div style="text-align: center;">
+  <a href="https://pythonsimulation-xaase6arhfiz4bqu3hcjou.streamlit.app/" target="_blank">
+    <button style="
+      background-color: #007bff; 
+      color: white; 
+      padding: 12px 28px; 
+      font-size: 16px; 
+      border: none; 
+      border-radius: 6px; 
+      cursor: pointer;
+      text-decoration: none;
+    ">
+      🚀 Launch Simulation
+    </button>
+  </a>
+</div>
+
 <br><hr><br>
 
 ## 3. Conclusion
