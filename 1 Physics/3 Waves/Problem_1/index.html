@@ -66,6 +66,20 @@
 <ul class="current">
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#interference-patterns-on-a-water-surface">Interference Patterns On A Water Surface</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#1-theory-and-mathematical-formulation">1. Theory and Mathematical Formulation</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#where">Where:</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#explanation-of-terms">Explanation of Terms:</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-python-simulation">2. Python Simulation</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#3-conclusion">3. Conclusion</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -172,19 +186,52 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-1">Problem 1</h1>
+<h2 id="interference-patterns-on-a-water-surface">Interference Patterns On A Water Surface</h2>
+<p>Interference occurs when waves from different sources overlap, creating new patterns. On a water surface, this can be easily observed when ripples from different points meet, forming distinctive interference patterns. These patterns can show us how waves combine in different ways, either reinforcing each other or canceling out.</p>
+<p>Studying these patterns helps us understand wave behavior in a simple, visual way. It also allows us to explore important concepts, like the relationship between wave phase and the effects of multiple sources. This task offers a hands-on approach to learning about wave interactions and their real-world applications, making it an interesting and engaging way to dive into wave physics.</p>
+<p><br/><hr/><br/></p>
+<h2 id="1-theory-and-mathematical-formulation">1. Theory and Mathematical Formulation</h2>
+<p>When a point source generates ripples on a water surface, it emits a circular wave that propagates outward from the source. At any location on the water surface, the vertical displacement (height) of the water due to this wave at a given time can be described by a mathematical wave function.</p>
+<p>Single Disturbance Equation
+The displacement <span class="arithmatex">\(\eta(\vec{r}, t)\)</span> of the water surface at a point <span class="arithmatex">\(\vec{r}\)</span> and time <span class="arithmatex">\(t\)</span>, due to a single point source located at position <span class="arithmatex">\(\vec{r}_0\)</span>, is given by:</p>
+<div class="arithmatex">\[
+\eta(\vec{r}, t) = A \cos(k r - \omega t + \phi)
+\]</div>
+<h4 id="where">Where:</h4>
+<p><span class="arithmatex">\(\eta(\vec{r}, t)\)</span>: Displacement (vertical position) of the water surface at position <span class="arithmatex">\(\vec{r}\)</span> and time <span class="arithmatex">\(t\)</span></p>
+<p><span class="arithmatex">\(A\)</span>: Amplitude of the wave — the maximum displacement from the undisturbed surface</p>
+<p><span class="arithmatex">\(r = |\vec{r} - \vec{r}_0|\)</span>: Distance from the source at <span class="arithmatex">\(\vec{r}_0\)</span> to the observation point <span class="arithmatex">\(\vec{r}\)</span></p>
+<p><span class="arithmatex">\(k\)</span>: Wave number, related to the wavelength <span class="arithmatex">\(\lambda\)</span> by <span class="arithmatex">\(k = \frac{2\pi}{\lambda}\)</span></p>
+<p><span class="arithmatex">\(\omega\)</span>: Angular frequency, related to the wave’s temporal frequency <span class="arithmatex">\(f\)</span> by <span class="arithmatex">\(\omega = 2\pi f\)</span></p>
+<p><span class="arithmatex">\(t\)</span>: Time</p>
+<p><span class="arithmatex">\(\phi\)</span>: Initial phase of the wave (can be used to introduce phase differences between sources)</p>
+<p><br/></p>
+<h4 id="explanation-of-terms">Explanation of Terms:</h4>
+<p>Amplitude <span class="arithmatex">\(A\)</span>: Controls how "tall" the wave is. Physically, it represents the energy or intensity of the wave. Larger amplitude means higher crests and deeper troughs.</p>
+<p>Distance <span class="arithmatex">\(r\)</span>: As waves spread out from a point source, the distance from the source to the point of observation affects how the wave arrives there — both in timing (due to finite speed) and in shape (since the wavefront is expanding).</p>
+<p>Wave Number <span class="arithmatex">\(k\)</span>: Indicates how rapidly the wave oscillates in space. Smaller wavelengths result in larger values of <span class="arithmatex">\(k\)</span>, meaning more oscillations over a given distance.</p>
+<p>Angular Frequency <span class="arithmatex">\(\omega\)</span>: Describes how rapidly the wave oscillates in time. Higher frequencies (shorter periods) mean faster oscillations.</p>
+<p>Phase <span class="arithmatex">\(\phi\)</span>: This is the initial “starting angle” of the wave. Adjusting this allows for modeling phase differences between waves, which is crucial in interference analysis.</p>
+<p><br/><hr/><br/></p>
+<h2 id="2-python-simulation">2. Python Simulation</h2>
+<p><br/> <a href="https://pythonsimulation-xaase6arhfiz4bqu3hcjou.streamlit.app/" target="_blank"> <button style=" background-color: #007bff; color: white; padding: 15px 30px; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease; "> Launch Simulation </button> </a>
+<br/><hr/><br/></p>
+<h2 id="3-conclusion">3. Conclusion</h2>
+<p>In conclusion, understanding wave interference patterns on water surfaces provides insight into wave interactions, showcasing both constructive and destructive interference. This study enhances our comprehension of wave behavior and its real-world applications in various fields, such as physics and engineering. By utilizing simulations, we can visually explore how waves emitted from point sources interact, offering a practical method for analyzing complex wave phenomena. This task contributes to a deeper understanding of the principles of superposition, wave behavior, and their effects on different systems.</p>
+<p><br/></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
 <a class="btn btn-neutral float-left" href="../../2%20Gravity/Problem_3/" title="Problem 3"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 <a class="btn btn-neutral float-right" href="../../4%20Electromagnetism/Problem_1/" title="Problem 1">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
-<hr/>
+<hr>
 <div role="contentinfo">
 <!-- Copyright etc -->
 </div>
 
   Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
+</hr></footer>
 </div>
 </div>
 </section>
