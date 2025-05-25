@@ -86,6 +86,30 @@
 </li>
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 2</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#estimating-pi-using-monte-carlo-methods">Estimating Pi Using Monte Carlo Methods</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#1-estimating-pi-using-a-circle">1. Estimating \(\pi\) Using a Circle</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#11-theoretical-foundation">1.1 Theoretical Foundation</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#12-simulation">1.2 Simulation</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#13-visualization">1.3 Visualization</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-estimating-pi-using-buffons-needle">2. Estimating \(\pi\) Using Buffon’s Needle</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#21-theoretical-foundation">2.1 Theoretical Foundation</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#22-simulation">2.2 Simulation</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#23-visualization">2.3 Visualization</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#3-conclusion">3. Conclusion</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -172,19 +196,88 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-2">Problem 2</h1>
+<h2 id="estimating-pi-using-monte-carlo-methods">Estimating Pi Using Monte Carlo Methods</h2>
+<p>Monte Carlo simulations are a powerful class of computational techniques that use randomness to solve problems or estimate values. One of the most elegant applications of Monte Carlo methods is estimating the value of <span class="arithmatex">\(\pi\)</span> through geometric probability. By generating random points and analyzing their positions relative to a geometric shape, we can approximate <span class="arithmatex">\(\pi\)</span> in an intuitive and visually engaging way.</p>
+<p>This task explores two Monte Carlo approaches for estimating <span class="arithmatex">\(\pi\)</span>:</p>
+<ul>
+<li><strong>Using a Circle and a Square</strong>: Estimating <span class="arithmatex">\(\pi\)</span> based on the ratio of points inside a circle to the total number of points in a square.</li>
+<li><strong>Buffon’s Needle</strong>: Estimating <span class="arithmatex">\(\pi\)</span> based on the probability of a needle crossing parallel lines on a plane.</li>
+</ul>
+<p>We will explore the theoretical foundations of these methods, simulate them using Python, visualize the results, and analyze the convergence rates and computational considerations.</p>
+<p><br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="1-estimating-pi-using-a-circle">1. Estimating <span class="arithmatex">\(\pi\)</span> Using a Circle</h2>
+<h3 id="11-theoretical-foundation">1.1 Theoretical Foundation</h3>
+<p>Consider a unit circle inscribed within a square. The area of the circle is</p>
+<div class="arithmatex">\[
+A_{\text{circle}} = \pi r^2 = \pi
+\]</div>
+<p>(since <span class="arithmatex">\(r = 1\)</span> for the unit circle), and the area of the square is  </p>
+<div class="arithmatex">\[
+A_{\text{square}} = 4
+\]</div>
+<p>(since the side length of the square is 2).</p>
+<p>Now, if we randomly generate points in the square and count how many fall inside the circle, the ratio of points inside the circle to the total points should be proportional to the ratio of the areas:</p>
+<div class="arithmatex">\[
+\frac{\text{Points inside the circle}}{\text{Total points}} \approx \frac{A_{\text{circle}}}{A_{\text{square}}} = \frac{\pi}{4}
+\]</div>
+<p>Thus, we can estimate <span class="arithmatex">\(\pi\)</span> using the following formula:</p>
+<div class="arithmatex">\[
+\pi \approx 4 \times \frac{\text{Points inside the circle}}{\text{Total points}}
+\]</div>
+<h3 id="12-simulation">1.2 Simulation</h3>
+<p>To estimate <span class="arithmatex">\(\pi\)</span>, we generate random points within a square of side length 2, centered at the origin. We check if each point lies inside the unit circle using the condition <span class="arithmatex">\(x^2 + y^2 \leq 1\)</span>, and then estimate <span class="arithmatex">\(\pi\)</span> by multiplying the ratio of points inside the circle by 4.</p>
+<h3 id="13-visualization">1.3 Visualization</h3>
+<p>Below is a visualization of the Monte Carlo simulation for estimating <span class="arithmatex">\(\pi\)</span> using a circle-based method, where points inside the circle are shown in blue and those outside are shown in red.</p>
+<p><img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/6%20Statistics/Problem2a.png"/></p>
+<p><br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="2-estimating-pi-using-buffons-needle">2. Estimating <span class="arithmatex">\(\pi\)</span> Using Buffon’s Needle</h2>
+<h3 id="21-theoretical-foundation">2.1 Theoretical Foundation</h3>
+<p>Buffon's Needle is a probability problem that involves a needle of length <span class="arithmatex">\(L\)</span> dropped on a floor with parallel lines spaced <span class="arithmatex">\(D\)</span> units apart. The probability <span class="arithmatex">\(P\)</span> that the needle will cross a line is given by:</p>
+<div class="arithmatex">\[
+P = \frac{2L}{\pi D}
+\]</div>
+<p>Rearranging this formula to estimate <span class="arithmatex">\(\pi\)</span>, we get:</p>
+<div class="arithmatex">\[
+\pi = \frac{2L}{P D}
+\]</div>
+<p>For simplicity, we'll assume <span class="arithmatex">\(L = D\)</span>, so the formula simplifies to:</p>
+<div class="arithmatex">\[
+\pi = \frac{2N}{k}
+\]</div>
+<h5 id="where">Where:</h5>
+<ul>
+<li><strong><span class="arithmatex">\(N\)</span></strong>: Total number of needle drops.</li>
+<li><strong><span class="arithmatex">\(k\)</span></strong>: Number of times the needle crosses a line.</li>
+</ul>
+<h3 id="22-simulation">2.2 Simulation</h3>
+<p>To estimate <span class="arithmatex">\(\pi\)</span> using Buffon’s Needle, we randomly simulate the drop of a needle on the plane with parallel lines. We count the number of times the needle crosses a line and estimate <span class="arithmatex">\(\pi\)</span> based on the formula.</p>
+<h3 id="23-visualization">2.3 Visualization</h3>
+<p>Below is a graphical representation of the simulation, showing the needle positions relative to the lines.</p>
+<p><img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/6%20Statistics/Problem2b.png"/></p>
+<p><br/></p>
+<hr/>
+<p><br/></p>
+<h2 id="3-conclusion">3. Conclusion</h2>
+<p>Both Monte Carlo methods—estimating <span class="arithmatex">\(\pi\)</span> using a circle and a square, and Buffon’s Needle—provide insightful and computationally efficient ways to estimate <span class="arithmatex">\(\pi\)</span>. The circle-based method is based on geometric probability and visually intuitive, while Buffon’s Needle is a fascinating example of how randomness in geometric settings can yield surprising results.</p>
+<p>In both cases, the accuracy of the estimates improves as the number of iterations increases. The convergence rate of each method can be compared, and insights into their computational efficiency can be drawn. Further analysis can reveal how the methods behave with different sample sizes and the time taken for convergence.</p>
+<p><br/></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
 <a class="btn btn-neutral float-left" href="../Problem_1/" title="Problem 1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 <a class="btn btn-neutral float-right" href="../../7%20Measurements/Problem_1/" title="Problem 1">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
-<hr/>
+<hr>
 <div role="contentinfo">
 <!-- Copyright etc -->
 </div>
 
   Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
+</hr></footer>
 </div>
 </div>
 </section>
