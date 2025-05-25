@@ -19,7 +19,7 @@ This simple yet profound relationship has broad applications in astronomy, from 
 
 To derive the relationship between the orbital period and the orbital radius, we'll start with Newton’s Law of Universal Gravitation and the formula for centripetal force. For a circular orbit, the gravitational force provides the necessary centripetal force to keep an object in orbit. Using the following equations:
 
-**Gravitational Force:**
+<center><stong>Gravitational Force:</stong></center>
 
 $$
 F_{\text{gravity}} = \frac{GMm}{r^2}
@@ -27,7 +27,7 @@ $$
 
 <br>
 
-**Centripetal Force:**
+<center><strong>Centripetal Force:</strong></center>
 
 $$
 F_{\text{centripetal}} = \frac{mv^2}{r}
