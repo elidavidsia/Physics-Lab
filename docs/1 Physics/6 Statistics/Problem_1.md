@@ -26,11 +26,11 @@ $$
 
 ##### Where:
 
-* **\$\bar{X}\_n\$**: Sample mean
-* **\$X\_i\$**: Independent and identically distributed random variables from any population
-* **\$\mu\$**: Population mean
-* **\$\sigma^2\$**: Population variance
-* **\$n\$**: Sample size
+- **$\bar{X}_n$**: Sample mean  
+- **$X_i$**: Independent and identically distributed random variables from any population  
+- **$\mu$**: Population mean  
+- **$\sigma^2$**: Population variance  
+- **$n$**: Sample size  
 
 As the sample size increases, the distribution of \$\bar{X}\_n\$ approaches a normal distribution with mean \$\mu\$ and variance \$\frac{\sigma^2}{n}\$, even if the original population is not normally distributed.
 
