@@ -243,31 +243,33 @@ A(\omega) = \sqrt{(\omega_0^2 - \omega^2)^2 + (\gamma \omega)^2} \cdot F_0
 <p><br/> </p>
 <h2 id="2-analysis-of-dynamics">2. Analysis of Dynamics</h2>
 <h4 id="21-influence-of-damping-coefficient">2.1 Influence of Damping Coefficient</h4>
-<p>The damping coefficient $\gamma$ affects the amplitude and the behavior of the oscillations. If $\gamma$ is small, the pendulum undergoes oscillations for a long time (underdamped behavior). If $\gamma$ is large, the pendulum will quickly settle to rest (overdamped behavior). The critical damping condition occurs when: <br/></p>
-<p><span class="arithmatex">\(\gamma_{\text{crit}} = 2m\omega_0\)</span></p>
-<p>For overdamping $\gamma &gt; \gamma_{\text{crit}}$, the system does not oscillate but slowly returns to equilibrium. <br/></p>
-<p><br/> </p>
+<p>The damping coefficient <span class="arithmatex">\(\gamma\)</span> affects the amplitude and the behavior of the oscillations. If <span class="arithmatex">\(\gamma\)</span> is small, the pendulum undergoes oscillations for a long time (underdamped behavior). If <span class="arithmatex">\(\gamma\)</span> is large, the pendulum will quickly settle to rest (overdamped behavior). The critical damping condition occurs when:<br>
+$$
+\gamma_{\text{crit}} = 2m\omega_0
+$$</br></p>
+<p>For overdamping <span class="arithmatex">\(\gamma &gt; \gamma_{\text{crit}}\)</span>, the system does not oscillate but slowly returns to equilibrium.</p>
+<p><br/></p>
 <h4 id="22-influence-of-driving-amplitude-and-frequency">2.2 Influence of Driving Amplitude and Frequency</h4>
-<p>The amplitude $F_0$ of the driving force directly affects the energy input into the system. As the amplitude increases, the oscillations grow larger, particularly near resonance. The driving frequency $\omega$ influences the frequency of oscillations and can result in various behaviors, including locked-in oscillations at a frequency that is a harmonic of the driving force, or chaotic motion. <br/></p>
-<p><br/> </p>
+<p>The amplitude <span class="arithmatex">\(F_0\)</span> of the driving force directly affects the energy input into the system. As the amplitude increases, the oscillations grow larger, particularly near resonance. The driving frequency <span class="arithmatex">\(\omega\)</span> influences the frequency of oscillations and can result in various behaviors, including locked-in oscillations at a frequency that is a harmonic of the driving force, or chaotic motion.</p>
+<p><br/></p>
 <h4 id="23-transition-to-chaotic-motion">2.3 Transition to Chaotic Motion</h4>
-<p>For certain values of $F_0$ and $\omega$, the system can transition from regular oscillations to chaotic motion. This occurs when the driving force interacts in a complex way with the natural frequency and damping of the system, leading to irregular, unpredictable behavior. Bifurcation diagrams, phase portraits, and Poincaré sections can help analyze these transitions. </p>
+<p>For certain values of <span class="arithmatex">\(F_0\)</span> and <span class="arithmatex">\(\omega\)</span>, the system can transition from regular oscillations to chaotic motion. This occurs when the driving force interacts in a complex way with the natural frequency and damping of the system, leading to irregular, unpredictable behavior. Bifurcation diagrams, phase portraits, and Poincaré sections can help analyze these transitions.</p>
 <p><br/></p>
 <hr/>
-<p><br/> </p>
+<p><br/></p>
 <h2 id="3-practical-applications">3. Practical Applications</h2>
-<p>The forced damped pendulum model can be applied to a variety of real-world systems, including: <br/></p>
+<p>The forced damped pendulum model can be applied to a variety of real-world systems, including:</p>
 <ul>
-<li><strong>Energy Harvesting:</strong> In devices that capture energy from oscillations, such as vibration-based energy harvesters, the pendulum's behavior near resonance is crucial for maximizing energy capture.</li>
-<li><strong>Suspension Bridges:</strong> These structures can experience periodic forces (e.g., from wind or traffic), and understanding resonance and damping is essential for ensuring the bridge’s stability and avoiding catastrophic failure.</li>
+<li><strong>Energy Harvesting:</strong> In devices that capture energy from oscillations, such as vibration-based energy harvesters, the pendulum's behavior near resonance is crucial for maximizing energy capture.  </li>
+<li><strong>Suspension Bridges:</strong> These structures can experience periodic forces (e.g., from wind or traffic), and understanding resonance and damping is essential for ensuring the bridge’s stability and avoiding catastrophic failure.  </li>
 <li><strong>Oscillating Circuits:</strong> In electrical systems, driven RLC circuits exhibit similar dynamics to a forced damped pendulum, where resonance and damping play crucial roles in determining the system’s behavior.</li>
 </ul>
-<p><br/> </p>
+<p><br/></p>
 <hr/>
-<p><br/> </p>
+<p><br/></p>
 <h2 id="4-implementation">4. Implementation</h2>
-<p>In this section, we simulate the dynamics of the forced damped pendulum using numerical methods. Specifically, the Runge-Kutta method is employed to solve the differential equation governing the system's motion. The Python implementation calculates the angular displacement over time, allowing for the visualization of both the time evolution of the angle $\theta(t)$ and the phase portrait of the system. <br/></p>
-<p>By solving this equation for various parameters, we gain insights into the pendulum's behavior under different damping and driving conditions. The code is designed to simulate the motion accurately and generate graphical outputs for further analysis. </p>
+<p>In this section, we simulate the dynamics of the forced damped pendulum using numerical methods. Specifically, the Runge-Kutta method is employed to solve the differential equation governing the system's motion. The Python implementation calculates the angular displacement over time, allowing for the visualization of both the time evolution of the angle <span class="arithmatex">\(\theta(t)\)</span> and the phase portrait of the system.  </p>
+<p>By solving this equation for various parameters, we gain insights into the pendulum's behavior under different damping and driving conditions. The code is designed to simulate the motion accurately and generate graphical outputs for further analysis.</p>
 <p align="center">
 <img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/1%20Mechanics/Problem%202a.png"/>
 </p>
