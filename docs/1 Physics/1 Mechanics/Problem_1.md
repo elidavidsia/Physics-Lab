@@ -23,13 +23,11 @@ $$ x(t) = v_0 \cdot \cos(\theta) \cdot t $$
 $$ y(t) = v_0 \cdot \sin(\theta) \cdot t - \frac{1}{2} g t^2 $$
   
 ##### Where:
-$x(t)$ and $y(t)$ are the horizontal and vertical positions of the projectile at time $t$.
-<br>
-$v_0$ is the initial velocity.
-<br>
-$θ$ is the angle of projection.
-<br>
-$g$ is the gravitational acceleration.
+- **$x(t)$**: Horizontal position of the projectile at time $t$  
+- **$y(t)$**: Vertical position of the projectile at time $t$  
+- **$v_0$**: Initial velocity  
+- **$\theta$**: Angle of projection  
+- **$g$**: Gravitational acceleration  
   
 The range $R$ is the horizontal distance traveled by the projectile when it returns to the ground (i.e., when $y(t) = 0$
   
