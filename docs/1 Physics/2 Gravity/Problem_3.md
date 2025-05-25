@@ -18,7 +18,7 @@ $$
 F = G \frac{m_1 m_2}{r^2}
 $$
 
-Where:
+##### Where:
 
 - **F** = gravitational force  
 - **G** = $6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2}$  
