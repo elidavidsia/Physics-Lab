@@ -19,19 +19,14 @@ $$
 $$
  
 #### Where:
-$\eta(\vec{r}, t)$: Displacement (vertical position) of the water surface at position $\vec{r}$ and time $t$
 
-$A$: Amplitude of the wave — the maximum displacement from the undisturbed surface
-
-$r = |\vec{r} - \vec{r}_0|$: Distance from the source at $\vec{r}_0$ to the observation point $\vec{r}$
-
-$k$: Wave number, related to the wavelength $\lambda$ by $k = \frac{2\pi}{\lambda}$
-
-$\omega$: Angular frequency, related to the wave’s temporal frequency $f$ by $\omega = 2\pi f$
-
-$t$: Time
-
-$\phi$: Initial phase of the wave (can be used to introduce phase differences between sources)
+- **$\eta(\vec{r}, t)$**: Displacement (vertical position) of the water surface at position $\vec{r}$ and time $t$  
+- **$A$**: Amplitude of the wave — the maximum displacement from the undisturbed surface  
+- **$r = |\vec{r} - \vec{r}_0|$**: Distance from the source at $\vec{r}_0$ to the observation point $\vec{r}$  
+- **$k$**: Wave number, related to the wavelength $\lambda$ by $k = \dfrac{2\pi}{\lambda}$  
+- **$\omega$**: Angular frequency, related to the wave’s temporal frequency $f$ by $\omega = 2\pi f$  
+- **$t$**: Time  
+- **$\phi$**: Initial phase of the wave (can be used to introduce phase differences between sources)  
 
 <br>
 
