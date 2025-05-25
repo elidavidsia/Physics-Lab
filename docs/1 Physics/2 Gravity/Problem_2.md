@@ -24,7 +24,7 @@ $$
 v_e = \sqrt{\frac{2GM}{R}}
 $$
 
-Where:
+##### Where:
 
 - **G** = gravitational constant $6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2}$
 - **M** = mass of the celestial body (kg)
