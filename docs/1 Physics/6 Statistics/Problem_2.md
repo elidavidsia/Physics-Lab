@@ -53,7 +53,9 @@ To estimate $\pi$, we generate random points within a square of side length 2, c
 
 Below is a visualization of the Monte Carlo simulation for estimating $\pi$ using a circle-based method, where points inside the circle are shown in blue and those outside are shown in red.
 
+<center>
 <img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/6%20Statistics/Problem2a.png">
+</center>
 
 <br>
 <hr>
@@ -94,7 +96,9 @@ To estimate $\pi$ using Buffon’s Needle, we randomly simulate the drop of a ne
 
 Below is a graphical representation of the simulation, showing the needle positions relative to the lines.
 
+<center>
 <img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/6%20Statistics/Problem2b.png">
+</center>
 
 <br>
 <hr>
