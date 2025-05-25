@@ -24,7 +24,7 @@ $$
 \vec{F} = q(\vec{E} + \vec{v} \times \vec{B})
 $$
 
-Where:
+##### Where:
 
 - **$\vec{F}$**: Force acting on the particle  
 - **$q$**: Charge of the particle  
