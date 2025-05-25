@@ -72,5 +72,3 @@ The Central Limit Theorem is essential in statistics because it provides a bridg
 The insights gained from simulation deepen our understanding of this powerful theorem and reinforce its practical significance across science, industry, and data-driven decision-making.
 
 <br>
-
-Would you like the accompanying Python code as a standalone script or embedded in a Jupyter Notebook next?
