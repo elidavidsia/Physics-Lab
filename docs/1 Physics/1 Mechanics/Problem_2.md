@@ -22,12 +22,12 @@ $$\theta''(t) + \gamma \theta'(t) + \omega_0^2 \sin(\theta(t)) = F_0 \cos(\omega
 
 #### Where:
 
-* $\theta(t)$ is the angular displacement
-* $\gamma$ is the damping coefficient
-* $\omega\_0$ is the natural frequency of the pendulum (in radians per second)
-* $F\_0$ is the amplitude of the external driving force
-* $\omega$ is the driving frequency
-* $t$ is time
+- **$\theta(t)$**: Angular displacement as a function of time  
+- **$\gamma$**: Damping coefficient  
+- **$\omega_0$**: Natural frequency of the pendulum (in radians per second)  
+- **$F_0$**: Amplitude of the external driving force  
+- **$\omega$**: Driving frequency  
+- **$t$**: Time  
 
 <br> 
 
