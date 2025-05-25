@@ -18,7 +18,7 @@ $$
 \eta(\vec{r}, t) = A \cos(k r - \omega t + \phi)
 $$
  
-#### Where:
+##### Where:
 
 - **$\eta(\vec{r}, t)$**: Displacement (vertical position) of the water surface at position $\vec{r}$ and time $t$  
 - **$A$**: Amplitude of the wave — the maximum displacement from the undisturbed surface  
