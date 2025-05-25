@@ -78,6 +78,14 @@
 <ul class="current">
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#equivalent-resistance-using-graph-theory">Equivalent Resistance Using Graph Theory</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#1-motivation-and-applications">1. Motivation and Applications</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-theory-and-mathematical-formulation">2. Theory and Mathematical Formulation</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#3-python-simulation">3. Python Simulation</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -172,19 +180,45 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-1">Problem 1</h1>
+<h2 id="equivalent-resistance-using-graph-theory">Equivalent Resistance Using Graph Theory</h2>
+<p>Calculating equivalent resistance is a fundamental problem in electrical circuits, essential for understanding and designing efficient systems. While traditional methods involve iteratively applying series and parallel resistor rules, these approaches can become cumbersome for complex circuits with many components. Graph theory offers a powerful alternative, providing a structured and algorithmic way to analyze circuits.</p>
+<p>By representing a circuit as a graph—where nodes correspond to junctions and edges represent resistors with weights equal to their resistance values—we can systematically simplify even the most intricate networks. This method not only streamlines calculations but also opens the door to automated analysis, making it particularly useful in modern applications like circuit simulation software, optimization problems, and network design.</p>
+<p>Studying equivalent resistance through graph theory is valuable not only for its practical applications but also for the deeper insights it provides into the interplay between electrical and mathematical concepts. This approach highlights the versatility of graph theory, demonstrating its relevance across physics, engineering, and computer science.</p>
+<p><br/><hr/><br/></p>
+<h2 id="1-motivation-and-applications">1. Motivation and Applications</h2>
+<p>Traditional techniques of circuit simplification become inefficient as circuit complexity increases. Graph theory allows us to represent circuits as mathematical graphs, where junctions are nodes and resistors are edges with weights representing resistance. This method enables automated simplification and analysis, making it ideal for use in circuit design tools, optimization systems, and educational software.</p>
+<p>Beyond automation, this approach also bridges electrical engineering and discrete mathematics, deepening our understanding of how graph structures relate to physical systems.</p>
+<p><br/><hr/><br/></p>
+<h2 id="2-theory-and-mathematical-formulation">2. Theory and Mathematical Formulation</h2>
+<p><strong>Series Combination:</strong></p>
+<div class="arithmatex">\[
+R_{\text{eq}} = R_1 + R_2
+\]</div>
+<p><strong>Parallel Combination:</strong></p>
+<div class="arithmatex">\[
+\frac{1}{R_{\text{eq}}} = \sum_{i=1}^{n} \frac{1}{R_i}
+\]</div>
+<p>Using these rules, we can iteratively reduce the graph by:</p>
+<ul>
+<li>Identifying nodes with exactly two connections (series)</li>
+<li>Collapsing multiple edges between the same nodes (parallel)</li>
+</ul>
+<p>This continues until the circuit is reduced to a single equivalent resistance between the source and target nodes.</p>
+<p><br/><hr/><br/></p>
+<h2 id="3-python-simulation">3. Python Simulation</h2>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
 <a class="btn btn-neutral float-left" href="../../4%20Electromagnetism/Problem_1/" title="Problem 1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 <a class="btn btn-neutral float-right" href="../../6%20Statistics/Problem_1/" title="Problem 1">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
-<hr/>
+<hr>
 <div role="contentinfo">
 <!-- Copyright etc -->
 </div>
 
   Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
+</hr></footer>
 </div>
 </div>
 </section>
