@@ -207,8 +207,8 @@
 <div class="section" itemprop="articleBody">
 <h1 id="problem-1">Problem 1</h1>
 <h2 id="measuring-earths-gravitational-acceleration-with-a-pendulum">Measuring Earth's Gravitational Acceleration with a Pendulum</h2>
-<p>The acceleration due to gravity is a fundamental constant that influences a wide range of physical phenomena. Measuring $g$ accurately is crucial for understanding gravitational interactions, designing structures, and conducting experiments in various fields. One classic method for determining $g$ is through the oscillations of a simple pendulum, where the period of oscillation depends on the local gravitational field.</p>
-<p>This task explores how to measure $g$ using a simple pendulum, along with detailed uncertainty analysis.</p>
+<p>The acceleration due to gravity is a fundamental constant that influences a wide range of physical phenomena. Measuring <span class="arithmatex">\(g\)</span> accurately is crucial for understanding gravitational interactions, designing structures, and conducting experiments in various fields. One classic method for determining <span class="arithmatex">\(g\)</span> is through the oscillations of a simple pendulum, where the period of oscillation depends on the local gravitational field.</p>
+<p>This task explores how to measure <span class="arithmatex">\(g\)</span> using a simple pendulum, along with detailed uncertainty analysis.</p>
 <p><br/></p>
 <hr/>
 <p><br/></p>
@@ -225,7 +225,7 @@
 <h4 id="12-setup">1.2 Setup</h4>
 <ol>
 <li>Attach the weight to the string and fix the other end to a sturdy support.</li>
-<li>Measure the length $L$ of the pendulum from the suspension point to the center of the mass using a ruler or measuring tape. Record the uncertainty in the measurement. This uncertainty is typically half the resolution of the measuring tool used.</li>
+<li>Measure the length <span class="arithmatex">\(L\)</span> of the pendulum from the suspension point to the center of the mass using a ruler or measuring tape. Record the uncertainty in the measurement. This uncertainty is typically half the resolution of the measuring tool used.</li>
 <li>Displace the pendulum slightly (less than 15°) and release it to start oscillating.</li>
 <li>Measure the time for 10 full oscillations using the stopwatch. Repeat this measurement 10 times to minimize random error.</li>
 </ol>
@@ -235,24 +235,32 @@
 <h2 id="2-data-collection-and-calculations">2. Data Collection and Calculations</h2>
 <p><img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/7%20Measurements/Data.jpg"/></p>
 <h4 id="21-period-calculation">2.1 Period Calculation</h4>
-<p>The period $T$ for one full oscillation is the time for 10 oscillations divided by 10:</p>
-<p><span class="arithmatex">\(T = \frac{t_{\text{total}}}{10}\)</span></p>
+<p>The period <span class="arithmatex">\(T\)</span> for one full oscillation is the time for 10 oscillations divided by 10:</p>
+<div class="arithmatex">\[
+T = \frac{t_{\text{total}}}{10}
+\]</div>
 <p><br/></p>
 <h4 id="22-acceleration-due-to-gravity-calculation">2.2 Acceleration Due to Gravity Calculation</h4>
-<p>Using the formula for the period of a simple pendulum, the acceleration due to gravity $g$ can be determined as:</p>
-<p><span class="arithmatex">\(g = \frac{4\pi^2 L}{T^2}\)</span></p>
+<p>Using the formula for the period of a simple pendulum, the acceleration due to gravity <span class="arithmatex">\(g\)</span> can be determined as:</p>
+<div class="arithmatex">\[
+g = \frac{4\pi^2 L}{T^2}
+\]</div>
 <p><br/></p>
 <h4 id="23-uncertainty-propagation">2.3 Uncertainty Propagation</h4>
-<p>Uncertainty in the length $L$ and the period $T$ propagate into the uncertainty in $g$. Using error propagation formulas:</p>
-<p><span class="arithmatex">\(\left(\frac{\Delta g}{g}\right)^2 = \left(\frac{\Delta L}{L}\right)^2 + \left(2 \frac{\Delta T}{T}\right)^2\)</span></p>
-<p>Thus, the uncertainty in $g$ is:</p>
-<p><span class="arithmatex">\(\Delta g = g \sqrt{\left(\frac{\Delta L}{L}\right)^2 + \left(2 \frac{\Delta T}{T}\right)^2}\)</span></p>
+<p>Uncertainty in the length <span class="arithmatex">\(L\)</span> and the period <span class="arithmatex">\(T\)</span> propagate into the uncertainty in <span class="arithmatex">\(g\)</span>. Using error propagation formulas:</p>
+<div class="arithmatex">\[
+\left(\frac{\Delta g}{g}\right)^2 = \left(\frac{\Delta L}{L}\right)^2 + \left(2 \frac{\Delta T}{T}\right)^2
+\]</div>
+<p>Thus, the uncertainty in <span class="arithmatex">\(g\)</span> is:</p>
+<div class="arithmatex">\[
+\Delta g = g \sqrt{\left(\frac{\Delta L}{L}\right)^2 + \left(2 \frac{\Delta T}{T}\right)^2}
+\]</div>
 <p><br/></p>
 <hr/>
 <p><br/></p>
 <h2 id="3-uncertainty-analysis">3. Uncertainty Analysis</h2>
 <h4 id="31-measurement-resolution">3.1 Measurement Resolution</h4>
-<p>The uncertainty in the length $L$ is typically small but significant, especially if the length is measured inaccurately. A 1% error in measuring $L$ leads to a roughly 2% error in $g$.</p>
+<p>The uncertainty in the length <span class="arithmatex">\(L\)</span> is typically small but significant, especially if the length is measured inaccurately. A 1% error in measuring <span class="arithmatex">\(L\)</span> leads to a roughly 2% error in <span class="arithmatex">\(g\)</span>.</p>
 <p><br/></p>
 <h4 id="32-variability-in-timing">3.2 Variability in Timing</h4>
 <p>Timing errors can accumulate, especially for small periods or long measurement times. Using a precise timing device (like a smartphone timer with high resolution) and ensuring consistent oscillations can reduce these errors.</p>
@@ -289,7 +297,7 @@
 <hr/>
 <p><br/></p>
 <h2 id="5-conclusion">5. Conclusion</h2>
-<p>In this experiment, we used the oscillations of a simple pendulum to measure the acceleration due to gravity, $g$. The uncertainties in the length measurement and timing were carefully considered, and their effects on the final result were propagated using error analysis techniques. The resulting value for $g$ was compared with the known standard value of 9.81 m/s². This experiment highlights the importance of precise measurements and careful uncertainty analysis in experimental physics.</p>
+<p>In this experiment, we used the oscillations of a simple pendulum to measure the acceleration due to gravity, <span class="arithmatex">\(g\)</span>. The uncertainties in the length measurement and timing were carefully considered, and their effects on the final result were propagated using error analysis techniques. The resulting value for <span class="arithmatex">\(g\)</span> was compared with the known standard value of 9.81 m/s². This experiment highlights the importance of precise measurements and careful uncertainty analysis in experimental physics.</p>
 <p><br/></p>
 </div>
 </div><footer>
