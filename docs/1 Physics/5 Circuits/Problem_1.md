@@ -43,4 +43,34 @@ This continues until the circuit is reduced to a single equivalent resistance be
 
 ## 3. Python Simulation
 
+Test: Series: 2Ω + 3Ω
+
+<img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/5%20Circuits/Circuit1.png">
+
+Equivalent resistance between 1 and 3: 5.00 Ω
+
+<br>
+
+Test: Parallel: 2Ω || 3Ω
+
+<img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/5%20Circuits/Circuit2.png">
+
+Equivalent resistance between 1 and 2: 3.00 Ω
+
+<br>
+
+Test: Nested Triangle: 1-2-3 with 2Ω, 4Ω, and 6Ω
+
+<img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/5%20Circuits/Circuit3.png">
+
+<br><hr><br>
+
+## 4. Conclusion</h3>
+Graph-based methods for computing equivalent resistance provide a structured, scalable, and automatable solution for analyzing circuits. They work beyond simple rules and can handle complex configurations through consistent graph reduction. The approach not only streamlines engineering workflows but also illustrates the power of graph theory in solving real-world problems.
+
+This method lays a strong foundation for more advanced applications, such as symbolic circuit analysis, automated verification, and electrical network optimization.
+
+<br>
+
+
 
