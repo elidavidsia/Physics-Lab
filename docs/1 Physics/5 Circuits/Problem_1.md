@@ -20,13 +20,14 @@ Beyond automation, this approach also bridges electrical engineering and discret
 
 ## 2. Theory and Mathematical Formulation
 
-**Series Combination:**
-
+<center><strong>Series Combination:</strong></center>
 $$
 R_{\text{eq}} = R_1 + R_2
 $$
 
-**Parallel Combination:**
+<br>
+
+<center><strong>**Parallel Combination:</strong></center>
 
 $$
 \frac{1}{R_{\text{eq}}} = \sum_{i=1}^{n} \frac{1}{R_i}
