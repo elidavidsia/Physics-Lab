@@ -84,6 +84,22 @@
 <ul class="current">
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#exploring-the-central-limit-theorem-through-simulations">Exploring the Central Limit Theorem through Simulations</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#1-exploration-of-applications">1. Exploration of Applications</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-theory-and-mathematical-formulation">2. Theory and Mathematical Formulation</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#where">Where:</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#3-python-simulation">3. Python Simulation</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#4-parameter-exploration">4. Parameter Exploration</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#5-conclusion">5. Conclusion</a>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2</a>
@@ -172,19 +188,71 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-1">Problem 1</h1>
+<h2 id="exploring-the-central-limit-theorem-through-simulations">Exploring the Central Limit Theorem through Simulations</h2>
+<p>The Central Limit Theorem (CLT) is a foundational principle in statistics that explains why the normal distribution appears so frequently in practice. It states that, given a sufficiently large sample size, the sampling distribution of the sample mean will tend to be normally distributed regardless of the shape of the population distribution. This task uses simulations to explore and visualize this phenomenon.</p>
+<p><br/><hr/><br/></p>
+<h2 id="1-exploration-of-applications">1. Exploration of Applications</h2>
+<p>The CLT underpins many statistical procedures and real-world practices. In <strong>survey sampling</strong>, it allows researchers to estimate population parameters even when the population distribution is unknown. In <strong>quality control</strong>, it provides a basis for monitoring product consistency by assessing sample means. In <strong>finance</strong>, it supports modeling average returns and risk over time.</p>
+<p>Understanding the CLT enables more accurate predictions, better experimental designs, and sound inference from sample data in both scientific research and applied settings.</p>
+<p><br/><hr/><br/></p>
+<h2 id="2-theory-and-mathematical-formulation">2. Theory and Mathematical Formulation</h2>
+<p>The Central Limit Theorem can be summarized as:</p>
+<center><strong>Central Limit Theorem:</strong></center>
+<div class="arithmatex">\[
+\bar{X}_n = \frac{1}{n} \sum_{i=1}^{n} X_i \xrightarrow{d} \mathcal{N}(\mu, \frac{\sigma^2}{n}) \text{ as } n \to \infty
+\]</div>
+<h5 id="where">Where:</h5>
+<ul>
+<li><strong>$\bar{X}_n$</strong>: Sample mean</li>
+<li><strong>$X_i$</strong>: Independent and identically distributed random variables from any population</li>
+<li><strong>$\mu$</strong>: Population mean</li>
+<li><strong>$\sigma^2$</strong>: Population variance</li>
+<li><strong>$n$</strong>: Sample size</li>
+</ul>
+<p>As the sample size increases, the distribution of $\bar{X}_n$ approaches a normal distribution with mean $\mu$ and variance $\frac{\sigma^2}{n}$, even if the original population is not normally distributed.</p>
+<p><br/><hr/><br/></p>
+<h2 id="3-python-simulation">3. Python Simulation</h2>
+<p><img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/6%20Statistics/Problem1a.png"/>
+<img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/6%20Statistics/Problem1b.png"/>
+<img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/6%20Statistics/Problem1c.png"/></p>
+<p><br/><hr/><br/></p>
+<h2 id="4-parameter-exploration">4. Parameter Exploration</h2>
+<p>This simulation explores the CLT across different population distributions:</p>
+<ul>
+<li><strong>Uniform Distribution [0, 10]</strong></li>
+<li><strong>Exponential Distribution (λ = 0.5)</strong></li>
+<li><strong>Binomial Distribution (n = 10, p = 0.5)</strong></li>
+</ul>
+<p>For each population:</p>
+<ul>
+<li>Vary the <strong>sample size</strong>: 5, 10, 30, 50</li>
+<li>Observe the <strong>sampling distribution of the mean</strong></li>
+<li>Track how quickly the distribution approaches normality</li>
+</ul>
+<p>You can also investigate:</p>
+<ul>
+<li><strong>Skewness and kurtosis</strong> to quantify deviation from normality</li>
+<li>The effect of <strong>population variance</strong> on the spread of sample means</li>
+</ul>
+<p><br/><hr/><br/></p>
+<h2 id="5-conclusion">5. Conclusion</h2>
+<p>The Central Limit Theorem is essential in statistics because it provides a bridge between arbitrary population distributions and the normal distribution. Simulations demonstrate that, regardless of how skewed or discrete the population is, the distribution of sample means becomes increasingly normal as the sample size grows. This convergence is crucial in enabling statistical inference and justifying the use of confidence intervals and hypothesis testing in diverse real-world applications.</p>
+<p>The insights gained from simulation deepen our understanding of this powerful theorem and reinforce its practical significance across science, industry, and data-driven decision-making.</p>
+<p><br/></p>
+<p>Would you like the accompanying Python code as a standalone script or embedded in a Jupyter Notebook next?</p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
 <a class="btn btn-neutral float-left" href="../../5%20Circuits/Problem_1/" title="Problem 1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 <a class="btn btn-neutral float-right" href="../Problem_2/" title="Problem 2">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
-<hr/>
+<hr>
 <div role="contentinfo">
 <!-- Copyright etc -->
 </div>
 
   Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
+</hr></footer>
 </div>
 </div>
 </section>
