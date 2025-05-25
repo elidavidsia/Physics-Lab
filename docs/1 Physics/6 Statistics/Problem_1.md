@@ -32,7 +32,7 @@ $$
 - **$\sigma^2$**: Population variance  
 - **$n$**: Sample size  
 
-As the sample size increases, the distribution of \$\bar{X}\_n\$ approaches a normal distribution with mean \$\mu\$ and variance \$\frac{\sigma^2}{n}\$, even if the original population is not normally distributed.
+As the sample size increases, the distribution of $\bar{X}_n$ approaches a normal distribution with mean $\mu$ and variance $\frac{\sigma^2}{n}$, even if the original population is not normally distributed.
 
 <br><hr><br>
 
