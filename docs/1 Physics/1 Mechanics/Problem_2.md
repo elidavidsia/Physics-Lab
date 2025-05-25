@@ -20,7 +20,7 @@ $$\theta''(t) + \gamma \theta'(t) + \omega_0^2 \sin(\theta(t)) = F_0 \cos(\omega
 
 <br>
 
-#### Where:
+##### Where:
 
 - **$\theta(t)$**: Angular displacement as a function of time  
 - **$\gamma$**: Damping coefficient  
