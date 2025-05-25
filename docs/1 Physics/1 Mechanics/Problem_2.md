@@ -33,25 +33,31 @@ $$\theta''(t) + \gamma \theta'(t) + \omega_0^2 \sin(\theta(t)) = F_0 \cos(\omega
 
 #### 1.1 Small-Angle Approximation
 
-For small angles, we can approximate \$\sin(\theta) \approx \theta\$ (in radians), which simplifies the equation to: <br>
+For small angles, we can approximate $\sin(\theta) \approx \theta$ (in radians), which simplifies the equation to:
 
-$\theta''(t) + \gamma \theta'(t) + \omega_0^2 \theta(t) = F_0 \cos(\omega t)$ <br>
+$$
+\theta''(t) + \gamma \theta'(t) + \omega_0^2 \theta(t) = F_0 \cos(\omega t)
+$$
 
-This equation is a second-order linear differential equation with a periodic forcing term. The solutions to this equation are more straightforward to analyze and can be expressed in terms of the system's natural frequency and damping conditions. <br>
+This equation is a second-order linear differential equation with a periodic forcing term. The solutions to this equation are more straightforward to analyze and can be expressed in terms of the system's natural frequency and damping conditions.
 
 <br>  
 
 #### 1.2 Resonance Conditions
 
-Resonance occurs when the driving frequency \$\omega\$ is close to the natural frequency \$\omega\_0\$ of the pendulum. In this case, the amplitude of oscillations can grow significantly, leading to large displacements of the pendulum. The resonance condition is typically when: <br>
+Resonance occurs when the driving frequency $\omega$ is close to the natural frequency $\omega_0$ of the pendulum. In this case, the amplitude of oscillations can grow significantly, leading to large displacements of the pendulum. The resonance condition is typically when:
 
-$\omega \approx \omega_0$ <br>
+$$
+\omega \approx \omega_0
+$$
 
-For damping systems, resonance is not idealized as in the undamped case but instead leads to a maximum amplitude at a certain driving frequency. The resonance behavior can be understood by examining the system's response function, which for a damped system is: <br>
+For damping systems, resonance is not idealized as in the undamped case but instead leads to a maximum amplitude at a certain driving frequency. The resonance behavior can be understood by examining the system's response function, which for a damped system is:
 
-$A(\omega) = \sqrt{(\omega_0^2 - \omega^2)^2 + (\gamma \omega)^2} \cdot F_0$ <br>
+$$
+A(\omega) = \sqrt{(\omega_0^2 - \omega^2)^2 + (\gamma \omega)^2} \cdot F_0
+$$
 
-At resonance \$\omega = \omega\_0\$, the amplitude is maximized, and the system absorbs the maximum energy from the driving force. 
+At resonance $\omega = \omega_0$, the amplitude is maximized, and the system absorbs the maximum energy from the driving force.
 
 <br>
 <hr>  
