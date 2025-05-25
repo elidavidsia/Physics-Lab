@@ -28,8 +28,6 @@ $$
 - **$t$**: Time  
 - **$\phi$**: Initial phase of the wave (can be used to introduce phase differences between sources)  
 
-<br>
-
 #### Explanation of Terms:
 Amplitude $A$: Controls how "tall" the wave is. Physically, it represents the energy or intensity of the wave. Larger amplitude means higher crests and deeper troughs.
 
