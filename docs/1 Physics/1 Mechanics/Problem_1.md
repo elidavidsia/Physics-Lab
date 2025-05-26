@@ -89,7 +89,7 @@ This idealized model can be adapted to more complex situations such as:
 ## 4. Implementation
 #### <center>Python Simulation</center>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/main/docs/1%20Physics/1%20Mechanics/Problem1.jpg">
+  <img src="https://raw.githubusercontent.com/elidavidsia/Physics-Lab/refs/heads/main/docs/1%20Physics/1%20Mechanics/Problem%201.png">
 </p>
 
 <br>
