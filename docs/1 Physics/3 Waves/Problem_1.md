@@ -27,15 +27,18 @@ $$
 - **$\phi$** is the initial phase
 
 #### Explanation of Terms:
-Amplitude $A$: Controls how "tall" the wave is. Physically, it represents the energy or intensity of the wave. Larger amplitude means higher crests and deeper troughs.
 
-Distance $r$: As waves spread out from a point source, the distance from the source to the point of observation affects how the wave arrives there — both in timing (due to finite speed) and in shape (since the wavefront is expanding).
+**Wave Displacement: $\eta(\vec{r}, t)$** — how much the water surface moves up or down at position $(x, y)$ and time $t$  
 
-Wave Number $k$: Indicates how rapidly the wave oscillates in space. Smaller wavelengths result in larger values of $k$, meaning more oscillations over a given distance.
+**Amplitude: $A$** — how high the wave gets (the maximum height from the center level)  
 
-Angular Frequency $\omega$: Describes how rapidly the wave oscillates in time. Higher frequencies (shorter periods) mean faster oscillations.
+**Wave Number: $k = \frac{2\pi}{\lambda}$** — tells us how tightly packed the waves are (how many waves fit in a certain distance), where $\lambda$ is the wavelength (distance between peaks)  
 
-Phase $\phi$: This is the initial “starting angle” of the wave. Adjusting this allows for modeling phase differences between waves, which is crucial in interference analysis.
+**Angular Frequency: $\omega = 2\pi f$** — tells us how quickly the wave goes up and down, where $f$ is the frequency (how many wave cycles happen per second)  
+
+**Distance from Source: $r = \sqrt{(x - x_0)^2 + (y - y_0)^2}$** — the straight-line distance from the wave source at point $(x_0, y_0)$ to the point $(x, y)$  
+
+**Initial Phase: $\phi$** — tells us where in its cycle the wave starts at time $t = 0$
 
 <br><hr><br>
 
