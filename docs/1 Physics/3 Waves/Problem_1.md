@@ -11,8 +11,7 @@ Studying these patterns helps us understand wave behavior in a simple, visual wa
 ## 1. Theory and Mathematical Formulation
 When a point source generates ripples on a water surface, it emits a circular wave that propagates outward from the source. At any location on the water surface, the vertical displacement (height) of the water due to this wave at a given time can be described by a mathematical wave function.
 
-Single Disturbance Equation
-The displacement $\eta(\vec{r}, t)$ of the water surface at a point $\vec{r}$ and time $t$, due to a single point source located at position $\vec{r}_0$, is given by:
+A circular wave on the water surface, emanating from a point source located at $(x_0, y_0)$, can be described by the Single Disturbance equation:
 
 $$
 \eta(x, y, t) = \frac{A}{\sqrt{r}} \cdot \cos\left(kr - \omega t + \phi\right)
