@@ -15,18 +15,17 @@ Single Disturbance Equation
 The displacement $\eta(\vec{r}, t)$ of the water surface at a point $\vec{r}$ and time $t$, due to a single point source located at position $\vec{r}_0$, is given by:
 
 $$
-\eta(\vec{r}, t) = A \cos(k r - \omega t + \phi)
+\eta(x, y, t) = \frac{A}{\sqrt{r}} \cdot \cos\left(kr - \omega t + \phi\right)
 $$
  
 ##### Where:
 
-- **$\eta(\vec{r}, t)$**: Displacement (vertical position) of the water surface at position $\vec{r}$ and time $t$  
-- **$A$**: Amplitude of the wave — the maximum displacement from the undisturbed surface  
-- **$r = |\vec{r} - \vec{r}_0|$**: Distance from the source at $\vec{r}_0$ to the observation point $\vec{r}$  
-- **$k$**: Wave number, related to the wavelength $\lambda$ by $k = \dfrac{2\pi}{\lambda}$  
-- **$\omega$**: Angular frequency, related to the wave’s temporal frequency $f$ by $\omega = 2\pi f$  
-- **$t$**: Time  
-- **$\phi$**: Initial phase of the wave (can be used to introduce phase differences between sources)  
+- **$\eta(\vec{r}, t)$** is the displacement of the water surface at point $(x, y)$ and time $t$
+- **$A$** is the amplitude of the wave
+- **$k = \frac{2\pi}{\lambda}$** is the wave number, related to the wavelength $\lambda$
+- **$\omega = 2\pi f$** is the angular frequency, related to the frequency $f$
+- **$r = \sqrt{(x - x_0)^2 + (y - y_0)^2}$** is the distance from the source to the point $(x, y)$
+- **$\phi$** is the initial phase
 
 #### Explanation of Terms:
 Amplitude $A$: Controls how "tall" the wave is. Physically, it represents the energy or intensity of the wave. Larger amplitude means higher crests and deeper troughs.
